@@ -1,0 +1,253 @@
+body{
+  background-image:url("../images/carbon_fibre.png");
+
+
+}
+header {
+  text-align:center;
+  font-family:arial;
+  position:relative;
+  background-color:white;
+
+
+
+}
+ header img {
+   height:80%;
+   float:left;
+   padding-top:20px;
+   padding-left: 20px;
+   position:absolute;
+   top:20px;
+   left:20px;
+
+ }
+
+ header p{
+   font-family:"chewy" arial;
+   padding-top:150;
+   font-size:102px;
+   color:#fc6929;
+
+ }
+
+.nav {
+
+  text-align:center;
+  margin-left:0;
+  margin-right:0;
+  padding-bottom:25px;
+
+}
+
+.nav li{
+  display:inline; /*displays list horizontally */
+
+
+}
+
+.nav a {
+  display:inline-block;
+  text-decoration:none; /*removes underline */
+  padding:10px 10px;
+  font-size:25px;
+  font-family:arial;
+  color:#fc6929;
+}
+.nav li a:hover{
+  color:grey;
+}
+
+.homeContent{
+  text-align:center;
+  margin:30px auto;
+
+
+}
+.homeContent p{
+    padding-left:100px;
+    padding-right:100px;
+    font-size:22px;
+    font-family:arial;
+    color:white;
+}
+
+.homeContent img{
+  width:300px;
+  height:300px;
+  display:inline-block;
+}
+
+
+
+/*bottom row */
+.box {
+  display:inline-block;
+  margin:25px;
+
+
+}
+.homeBottom{
+  text-align:center;
+
+}
+
+.homeBottom p{
+  padding-left:100px;
+  padding-right:100px;
+  font-size:18px;
+  font-family:arial;
+  color:white;
+}
+
+footer{
+  background-color:white;
+  text-align:center;
+}
+.footerList li{
+  display:inline-block;
+}
+.footerList img{
+  width:75px;
+  padding:25px 45px;
+
+}
+footer p{
+  color:#fc6929;
+  font-size:38px;
+
+}
+
+.comedyContent {
+  border: 2px solid grey;
+  width: 600px;
+  margin: 40px auto;
+  background-color:white;
+}
+.comedyContent p{
+  color:gray;
+  font-size:32px;
+  margin-left:10px;
+}
+
+li{
+  color:#fc6929;
+  font-size:25px;
+  font-family:arial;
+  padding:25px;
+  margin-left:15px;
+
+}
+/* drama page css */
+
+.left{
+  display:inline-block;
+  background-color:white;
+  width:45%;
+  margin-right:20px;
+
+}
+
+.right{
+  display:inline-block;
+  background-color:white;
+  width: 45%;
+  margin-left:60px;
+
+}
+.dramaContent{
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+
+
+}
+.dramaContent p{
+  background-color:white;
+  color:gray;
+  font-size:32;
+  margin-left:10;
+}
+
+
+@media all and (max-width:320px) {
+
+  header img {
+    display:none;
+  }
+
+  header p{
+    font-family:"chewy" arial;
+    font-size:25px;
+    color:blue;
+  }
+
+  .homeContent p{
+    display:none;
+  }
+  .homeBottom {
+    display:none;
+  }
+
+  footer p{
+    color:#fc6929;
+    font-size:28px;
+
+  }
+
+.comedyContent {
+  border: 2px solid grey;
+  width:300px;
+  margin: 40px auto;
+  background-color:white;
+}
+.comedyContent p{
+  color:gray;
+  font-size:22px;
+  margin-left:10px;
+}
+
+.comedyContent li{
+  font-size:15px;
+}
+.dramaContent p{
+  background-color:white;
+  color:gray;
+  font-size:22px;
+  margin-left:0;
+
+}
+.left{
+  background-color:white;
+  width:300px;
+
+}
+.right{
+  background-color:white;
+  width:300px;
+  margin-left:0;
+
+}
+.dramaContent{
+  width:320px;
+
+}
+
+.left li{
+  color:#fc6929;
+  font-size:25px;
+  font-family:arial;
+  padding:0px;
+  margin-left:15px;
+}
+
+.right li{
+    color:#fc6929;
+    font-size:25px;
+    font-family:arial;
+    padding:0px;
+    margin-left:15px;
+  }
+
+}
